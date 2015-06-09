@@ -55,6 +55,14 @@ body {
     background-position: 0% 84%;
   }
 }
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1000px;
+  color: white;
+}
 #title {
   text-align: center;
   color: white;
@@ -73,6 +81,9 @@ p.sobStory {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+p.sobStory span {
+  color: #fb9483;
+}
 .sobStory {
   display: block;
   margin-left: auto;
@@ -80,6 +91,45 @@ p.sobStory {
   width: 90%;
   max-width: 1000px;
   color: white;
+}
+.more {
+  padding: 1px;
+  margin-top: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 280px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.more:active {
+  padding: 1px;
+  margin-top: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 280px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.more:hover {
+  color: #f51b1b;
+  background: white;
+  border: 2px solid white;
 }
 .donate {
   margin-top: 50px;
